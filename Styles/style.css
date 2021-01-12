@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    position: relative;
+    widows: 100%;
+    min-height: 100vh;
+    background: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .content {
+    position: relative;
+    padding: 100px 50px 100px 150px;
+    box-sizing: border-box;
+}
+
+section .content h2 {
+    color: #f1f1f1;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+section .content p {
+    color: #f1f1f1;
+    font-size: 1.2em;
+}
+
+section .content a {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background: #ff2562;
+    color: #f1f1ff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.95em;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+section .imgBox {
+    position: relative;
+    padding-right: 100px;
+}
+
+section .imgBox img {
+    max-width: 500px;
+}
+
+.socialNetwork {
+    position: absolute;
+    bottom: 75px;
+    left: 150px;
+    display: flex;
+}
+
+.socialNetwork li {
+    list-style: none;
+}
+
+.socialNetwork li a {
+    text-decoration: none;
+    color: #f1f1f1;
+    margin-right: 30px;
+    font-size: 0.9em;
+}
